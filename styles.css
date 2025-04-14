@@ -1,0 +1,141 @@
+/* ============================
+   Base Styling
+============================ */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 40px;
+}
+
+h2 {
+    font-weight: 600;
+    color: #343a40;
+}
+
+/* ============================
+   Navbar
+============================ */
+.navbar {
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* ============================
+   Buttons
+============================ */
+.btn {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* ============================
+   Cards
+============================ */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* ============================
+   Form Inputs
+============================ */
+input.form-control,
+select.form-control {
+    border-radius: 8px;
+}
+
+/* Highlight invalid input (e.g., customer name mismatch) */
+input.is-invalid {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+/* ============================
+   Layout & Spacing
+============================ */
+.container {
+    margin-top: 30px;
+}
+
+.order-item .col {
+    padding-right: 10px;
+}
+
+/* ============================
+   Flash Messages
+============================ */
+.alert {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+/* Add icon spacing inside alerts */
+.alert::before {
+    content: "⚠️ ";
+    margin-right: 6px;
+}
+
+/* ============================
+   Tables (e.g., Order List)
+============================ */
+table.table {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+table th {
+    background-color: #f1f1f1;
+    font-weight: 600;
+}
+
+table td {
+    vertical-align: middle;
+}
+
+/* ============================
+   Forms (Auth + General)
+============================ */
+form input.form-control {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px;
+    font-weight: 600;
+}
+
+/* ============================
+   Centering Auth Cards
+============================ */
+.auth-card {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+/* Optional: Logo or heading alignment */
+.auth-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
